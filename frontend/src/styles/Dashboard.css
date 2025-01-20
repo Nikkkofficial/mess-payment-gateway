@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+    height: 100vh;
+    color: white;
+}
+
+.student {
+    background: linear-gradient(to bottom right, blue, red, white);
+}
+
+.admin {
+    background: linear-gradient(to bottom right, purple, blue, white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.payment-box {
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
